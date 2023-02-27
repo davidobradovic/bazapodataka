@@ -74,7 +74,7 @@ app.get('/idemo', (req, res) => {
     res.send('Idemo jakoob')
 })
 
-const port = process.env.PORT || 8000;
+const port = 8000;
 app.listen(port, () => {
     console.log(`Server pokrenut na portu ${port} `)
 })
